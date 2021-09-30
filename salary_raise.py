@@ -27,11 +27,8 @@ def main():
         )
     else:
         print("")
-        print(
-            "You have not worked here long enough to get the raise. Your salary is still ${0}.".format(
-                salary
-            )
-        )
+        print("You have not worked here long enough to get the raise. ")
+        print("Your salary is still ${0}.".format(salary))
 
     # output
     print("\nDone.")
